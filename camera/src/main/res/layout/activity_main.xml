@@ -13,7 +13,30 @@
         android:layout_height="wrap_content"
         android:text="打开照相机"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="231dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开相机2"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="364dp"
+        android:layout_height="449dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="拍照图片"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="53dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
 
 </android.support.constraint.ConstraintLayout>
